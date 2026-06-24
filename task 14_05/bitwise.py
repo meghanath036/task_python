@@ -41,3 +41,11 @@ x <<= 2
 print(x)
 x >>= 2
 print(x)
+
+
+
+'''mul and div by 2 without % and *'''
+n=10
+m=n>>1
+s=n<<1
+print(m,s)
