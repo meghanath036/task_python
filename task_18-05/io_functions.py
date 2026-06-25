@@ -33,7 +33,8 @@ EOFError: EOF when reading a line'''
 # Occurs when incompatible data types are combined.
 
 age = 20
-print("Age = " + age)
+# it my be error
+# print("Age = " + age)
 
 
 '''Output:
@@ -45,4 +46,4 @@ TypeError: can only concatenate str (not "int") to str'''
 
 # python
 print("Age =", age)
-
+print(age)
