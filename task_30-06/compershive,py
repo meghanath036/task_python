@@ -1,4 +1,4 @@
-s = "hi hello ravi garu"
+s = "hi hello raju"
 
 v = [ch for ch in s if ch in "aeiouAEIOU"]
 c = [ch for ch in s if ch not in "aeiouAEIOU" and ch != " "]
