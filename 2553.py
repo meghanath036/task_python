@@ -18,9 +18,12 @@ answer = [1,3,2,5,8,3,7,7]. Note that answer contains the separations in the sam
 
 
 
+
 nums=[13,34,58,90,89]
 li = []
 for i in nums:
     for j in str(i):
         li.append(int(j))
 print( li)
+
+
