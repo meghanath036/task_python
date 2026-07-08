@@ -1,9 +1,0 @@
-s = "HI Hello Raju"
-
-v = [ch for ch in s if ch in "aeiouAEIOUI"]
-c = [ch for ch in s if ch not in "aeiouAEIOU" and ch != " "]
-
-print("vowels",v)
-print( "consonants",c)
-
-
